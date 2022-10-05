@@ -1,0 +1,50 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            <form action="index.php" method="post">
+                <div class="form-group">
+                    <label for="prix-achat">Prix d'achat du bien :</label>
+                    <input type="number" class="form-control" id="prix-achat" name="prix-achat" placeholder="Indiquer le prix d'achat" required>
+                </div>
+                <div class="form-group">
+                    <label for="taux">Taux :</label>
+                    <input type="text" class="form-control" id="taux" name="taux" placeholder="Indiquer le taux" value="1.37">
+                </div>
+                <div class="form-group">
+                    <label for="loyer">Loyer :</label>
+                    <input type="number" class="form-control" id="loyer" name="loyer" placeholder="Indiquer le loyer annuel">
+                </div>
+                <div class="form-group">
+                    <label for="charges">Charges :</label>
+                    <input type="number" class="form-control" id="charges" name="charges" placeholder="Indiquer les charges annuelles">
+                </div>
+                <div class="form-group">
+                    <label for="foncier">Foncier :</label>
+                    <input type="number" class="form-control" id="foncier" name="foncier" placeholder="Indiquer la taxe foncière annuelle">
+                </div>
+                <div class="form-group">
+                    <label for="travaux">Travaux :</label>
+                    <input type="number" class="form-control" id="travaux" name="travaux" placeholder="Indiquer si il y a des travaux">
+                </div>
+                <div class="form-group">
+                    <label for="duree">Durée du prêt</label>
+                    <select name="duree" class="form-control" id="duree">
+                        <option value="20">20 ans</option>
+                        <option value="25">25 ans</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ville">ville :</label>
+                    <input type="text" class="form-control" id="ville" name="ville" placeholder="Indiquer la ville ">
+                </div>
+                <div class="form-group">
+                    <label for="lien">lien :</label>
+                    <input type="text" class="form-control" id="lien" name="lien" placeholder="Indiquer le lien de l'annonce">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2"><i class="fas fa-calculator"></i> Calculer</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
